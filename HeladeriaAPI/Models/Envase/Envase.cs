@@ -8,7 +8,7 @@
             public string Descripcion { get; set; } = null!;         
             public decimal Precio { get; set; }
             public bool Comestible { get; set; }
-            public bool Disponible { get; set; } = true;
+            public bool Disponible { get; set; } 
         }
     }
     
