@@ -16,5 +16,8 @@ namespace HeladeriaAPI.Models.Helado.Dto
         public bool? IsArtesanal { get; set; }
 
         public List<string>? Ingredientes { get; set; }
+
+        [StringLength(300, ErrorMessage = "La URL de la imagen no puede tener más de 300 caracteres")]
+        public string? ImagenUrl { get; set; }
     }
 }

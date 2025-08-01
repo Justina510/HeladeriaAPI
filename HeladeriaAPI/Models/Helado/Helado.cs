@@ -9,5 +9,7 @@
         public bool IsArtesanal { get; set; }
         public List<string> Ingredientes { get; set; } = new();
         public DateTime FechasCreacion { get; set; } = DateTime.Now;
+        public string? ImagenUrl { get; set; }
+
     }
 }
